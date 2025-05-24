@@ -1,6 +1,8 @@
-class n:
+class m:
     def __init__(self):
-        self.m = [10, 20, 30]
+        self.n = [10, 20, 30]
 
     def __iter__(self):
-        return iter(self.m)
+        for it in self.n:
+            yield it
+
